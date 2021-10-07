@@ -25,7 +25,7 @@ body{
     height: 100%;
     width: 78px;
     background: var(--backCol);
-    padding: 6px 14px;
+    padding: 6px 8px;
     transition: all 0.5s ease;
 }
 .sidebar.active{
@@ -64,10 +64,15 @@ body{
     transform: translateX(-50%);
     color: var(--fontCol);
     transition: all 0.5s ease;
+    border-radius: 12px;
+}
+.sidebar #btn:hover{
+    background-color: black;
+    border-radius: 12px;
 }
 .sidebar.active #btn{
     transition: all 0.5s ease;
- left: 90%;
+ left: 85%;
 }
 .sidebar ul{
     margin-top: 20px;
@@ -96,15 +101,16 @@ body{
     opacity: 0;
     pointer-events: none;
 }
-.sidebar.active ul li .tooltip{
-    display: block;
+.sidebar.active ul li:hover .tooltip{
+    opacity: 0;
 }
 .sidebar ul li:hover .tooltip{
     transition: all 0.5s ease;
     top: 50%;
     opacity: 1;
 }
-.sidebar ul li input{
+.sidebar>ul>li>input{
+    opacity: 0;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -117,6 +123,23 @@ body{
     font-size: 18px;
     color: var(--fontCol);
     background: #7d7d7d;
+    transition: all 0.5s ease;
+}
+.sidebar.active ul li input{
+    opacity: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    padding-left: 50px;
+    font-size: 18px;
+    color: var(--fontCol);
+    background: #7d7d7d;
+    transition: all 0.5s ease;
 }
 .sidebar ul li .bx-search{
     position: absolute;
@@ -127,20 +150,27 @@ body{
 }
 .sidebar ul li .bx-search:hover{
     background: black;
-    color: #7d7d7d;
+    color: var(--fontCol);
+    width: auto;
+    margin-right: 10px;
+    transition:  0.5s ease;
 }
 .sidebar ul li a{
+    width: auto;
     color: var(--fontCol);
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
     border-radius: 12px;
     white-space: nowrap;
 }
 .sidebar ul li a:hover{
+    width: auto;
+    margin-right: 10px;
     color: var(--fontCol);
     background: black;
+    transition: all 0.5s ease;
 }
 .sidebar .links_names{
     opacity: 0;

@@ -63,8 +63,10 @@ body{
     line-height: 50px;
     transform: translateX(-50%);
     color: var(--fontCol);
+    transition: all 0.5s ease;
 }
 .sidebar.active #btn{
+    transition: all 0.5s ease;
  left: 90%;
 }
 .sidebar ul{
@@ -143,6 +145,7 @@ body{
 .sidebar .links_names{
     opacity: 0;
     pointer-events: none;
+    transition: all 0.5s ease;
 }
 .sidebar.active .links_names{
     opacity: 1;

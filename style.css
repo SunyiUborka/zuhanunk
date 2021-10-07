@@ -9,7 +9,6 @@
     --fontCol: greenyellow;
     --backCol: #444;
 }
-
 body{
     margin-left: calc(78px + 1em);
     color: var(--fontCol);
@@ -157,7 +156,6 @@ body{
     line-height: 50px;
     text-align: center;
 }
-
 ::placeholder{
     color: var(--fontCol);
 }

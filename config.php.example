@@ -1,0 +1,7 @@
+#Mivel nem szeretnénk, hogy más is hozzá férjen a mi api kulucsnhoz, ezért ez egy példa lenne.
+#Továbbá ide jöhetnek, amiket szintén nem szeretnénk, hogy más kezébe kerüljön.
+#A fájl mindenkinek a saját gépén lesz meg, gitre nem kerül fel a .gitignore fájl miatt, ha beleírtok valamit, azt nem rakja fel.
+#Röviden: Másold ezt a fájlt, töröld az example részt és kész. Nem kerül fel gitre, de nálad megmarad.
+<?php
+    $APIKEY = 'ide jön a te api kulcsod';
+?>

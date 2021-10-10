@@ -6,6 +6,8 @@
     font-family: 'Ubuntu', sans-serif;
 }
 body{
+    color: var(--fontCol);
+    margin-left: calc(78px + 2em);
     background-color: black;
 }
 :root{
@@ -92,11 +94,12 @@ body{
     padding: 6px 12px;
     border-radius: 4px;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     opacity: 0;
     white-space: nowrap;
     pointer-events: none;
     transition: 0s;
+    color:black;    
 }
 .sidebar li:hover .tooltip{
     opacity: 1;
@@ -188,4 +191,20 @@ body{
 }
 ::placeholder{
     color: var(--fontCol);
+}
+
+::-webkit-scrollbar{
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track{
+    background: hsl(120 75% 50% /1);
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(120 75% 20% /1);
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: hsl(120 75% 10% /1);
 }

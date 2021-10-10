@@ -1,3 +1,6 @@
+<?php
+    include("config.php");
+?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -62,28 +65,28 @@
         </div>
     </nav>
     <?php
-// $queryString = http_build_query([
-//     'access_key' => 'your api key',
-//     'arr_iata' => 'BUD'
-//   ]);
+$queryString = http_build_query([
+    'access_key' => $APIKEY,
+    'arr_iata' => 'BUD'
+  ]);
   
-//   $ch = curl_init(sprintf('%s?%s', 'http://api.aviationstack.com/v1/flights', $queryString));
-//   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  $ch = curl_init(sprintf('%s?%s', 'http://api.aviationstack.com/v1/flights', $queryString));
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   
-//   $json = curl_exec($ch);
-//   curl_close($ch);
+  $json = curl_exec($ch);
+  curl_close($ch);
   
-//   $api_result = json_decode($json, true);
-//   foreach ($api_result['data'] as $flight) {
-//           echo sprintf("%s flight %s from %s (%s) to %s (%s) is in the air.<br>",
-//               $flight['airline']['name'],
-//               $flight['flight']['iata'],
-//               $flight['departure']['airport'],
-//               $flight['departure']['iata'],
-//               $flight['arrival']['airport'],
-//               $flight['arrival']['iata']
-//               ), PHP_EOL;
-//   }
+  $api_result = json_decode($json, true);
+  foreach ($api_result['data'] as $flight) {
+          echo sprintf("A %s (%s) repülő a levegőben, %s (%s)-ból/ből a %s (%s) repülőtérre.<br>",
+              $flight['airline']['name'],
+              $flight['flight']['iata'],
+              $flight['departure']['airport'],
+              $flight['departure']['iata'],
+              $flight['arrival']['airport'],
+              $flight['arrival']['iata']
+              ), PHP_EOL;
+  }
 ?>
     <script>
         let btn = document.querySelector("#btn");

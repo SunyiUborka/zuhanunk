@@ -53,7 +53,7 @@
 </h3>
 <ul>
   <li>
-    Egy csicsá navbar
+    Egy csicsás navbar
   </li>
 </ul>
 <b>Egyéb kérdésért felém lehet fordulni: Csehi Roland (Sunyi Uborka#0371)</b>

@@ -60,8 +60,9 @@
 <ul>
   <li>
     Peti: Kezdőlap
-    
-  
+  </li>
+  <li>
+    Roland: Repülőterek
   </li>
   <li> Ábrahám: Rólunk(about)</li>
   <li>A mappaszerkezetet megcsináltam, az osztályoknak</li>

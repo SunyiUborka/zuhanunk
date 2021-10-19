@@ -36,7 +36,7 @@
                     <span class="tooltip">Repűlőterek</span>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="about.php">
                     <i class='bx bx-detail' ></i>
                         <span class="links_name">Rólunk</span>
                     </a>

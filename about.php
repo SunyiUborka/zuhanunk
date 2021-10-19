@@ -19,18 +19,39 @@ $title = "Rólunk";
     <link rel="stylesheet" href="./style.css">
 </head>
 
+
+
 <body>
 
+<?php
+include "nav.php";
+?>
 
 <h1>Üdvözlünk az oldalon</h1>
 
 <p>
-Mi vagyunk az ASTP. Repüljünk együtt!
+Mi vagyunk az ASTP. Repüljünk együtt!</p>
+
+Amiért érdemes minket választani:
+
+<ul>
+    <li>Gépeink gyorsak, biztonságosak</li>
+    <li>Általában nem késnek</li>
+    <li>Olcsók</li>
+</ul>
+
+<form>
+
+<label for="kerdes">Bármi kérdésed van, írj nekünk
+
+<textarea id="kerdes" name="kerdes" col="5" row="6">
 
 
+</textarea>
 
-</p>
+</label>
 
+</form>
 
 </body>
 </html>

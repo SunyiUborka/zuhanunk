@@ -12,6 +12,16 @@ private $erkezik;
 private $indul;
 
 
+ public function con($id , $tipus , $ut , $erkezik , $indul) {
+
+    $this->id = $id; 
+    $this->tipus = $tipus; 
+    $this->ut = $ut; 
+    $this->erkezik = $erkezik;  
+$this->indul = $indul; 
+
+
+}
 
 
 
@@ -49,5 +59,9 @@ public function getIndul() {
 
 
 }
+
+
+
+
 
 ?>

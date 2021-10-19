@@ -60,7 +60,8 @@
 <ul>
   <li>
     Peti: Kezdőlap
-    
+    Ábrahám: Rólunk(about)
+  
   </li>
 </ul>
 <b>Egyéb kérdésért felém lehet fordulni: Csehi Roland (Sunyi Uborka#0371)</b>

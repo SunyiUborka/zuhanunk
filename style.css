@@ -55,7 +55,6 @@ body{
     right: 0;
     transform: translateY(-50%);
     font-size: 22px;
-    transition: all 0.4s ease;
     font-size: 23px;
     text-align: center;
     cursor: pointer;
@@ -98,7 +97,7 @@ body{
     opacity: 0;
     white-space: nowrap;
     pointer-events: none;
-    transition: 0s;
+    transition: all 0.5s ease;
     color:black;    
 }
 .sidebar li:hover .tooltip{
@@ -150,7 +149,6 @@ body{
   }
   .sidebar li a{
     display: flex;
-    height: 100%;
     width: 100%;
     border-radius: 12px;
     align-items: center;
@@ -168,7 +166,7 @@ body{
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
-    transition: 0.4s;
+    transition: all 0.5s ease;
 }
 .sidebar.active li a .links_name{
     opacity: 1;

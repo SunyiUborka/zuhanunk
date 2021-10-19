@@ -59,6 +59,7 @@
 <h2>Készítés alatt:</h2>
 <ul>
   <li>
+    Peti: Kezdőlap
     
   </li>
 </ul>

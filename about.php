@@ -39,16 +39,22 @@ include "nav.php";
 Mi vagyunk az ASTP. Repüljünk együtt!</p>
 
 
+<img src="img/forepulo.jpg" alt="forepulo">
+
+
+
+
 
 <p>
 
+Az ASTP 13 évvel ezelőtt jelent meg. 
 
 </p>
 
 <ul>
 
-<li>a rendelkezések, a tanúsítványok és a bizonyítványok harmonizálása,</li>
-<li>   az EU egységes légi közlekedési piacának kiépítése,</li>
+<li>,</li>
+<li>  </li>
 <li>  műszaki repülésügyi szabályok kidolgozása,</li>
 <li>   légi járművek és komponensek típusalkalmassági tanúsítása,</li>
 <li>  a repüléstechnikai termékeket tervező, gyártó és karbantartó cégek jóváhagyása,</li>

@@ -10,7 +10,7 @@
             </div>
             <ul class="nav_list">
                 <li>
-                    <a href="">
+                    <a href="index.php">
                         <i class='bx bx-home' ></i>
                         <span class="links_name">Kezdőlap</span>
                     </a>
@@ -43,7 +43,7 @@
                     <span class="tooltip">Rólunk</span>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="info.php">
                     <i class='bx bx-info-circle' ></i>
                         <span class="links_name">Információ</span>
                     </a>

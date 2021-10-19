@@ -7,7 +7,7 @@
 }
 body{
     color: var(--fontCol);
-    margin-left: calc(78px + 2em);
+    margin-left: calc(78px + 1em);
     background-color: black;
 }
 :root{
@@ -204,4 +204,8 @@ body{
 }
 ::-webkit-scrollbar-thumb:hover{
     background: hsl(120 75% 10% /1);
+}
+
+.table{
+    color: var(--fontCol);
 }

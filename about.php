@@ -27,12 +27,45 @@ $title = "Rólunk";
 include "nav.php";
 ?>
 
+<div class="container">
+
+<div class="row">
+
+<div class="col-12">
+
 <h1>Üdvözlünk az oldalon</h1>
 
 <p>
 Mi vagyunk az ASTP. Repüljünk együtt!</p>
 
+
+
+<p>
+
+
+</p>
+
+<ul>
+
+<li>a rendelkezések, a tanúsítványok és a bizonyítványok harmonizálása,</li>
+<li>   az EU egységes légi közlekedési piacának kiépítése,</li>
+<li>  műszaki repülésügyi szabályok kidolgozása,</li>
+<li>   légi járművek és komponensek típusalkalmassági tanúsítása,</li>
+<li>  a repüléstechnikai termékeket tervező, gyártó és karbantartó cégek jóváhagyása,</li>
+<li>  repülésbiztonsági felügyelet és támogatás biztosítása az uniós országok számára (lásd: légi műveletek, légi forgalmi szolgáltatások),</li>
+<li>   európai és globális biztonsági normák előmozdítása,</li>
+<li>   együttműködés a nemzetközi érdekelt felekkel az európai repülésbiztonság javítása érdekében (lásd az ún. európai repülésbiztonsági listát, az Európai Unióban működési tilalom vagy működési korlátozások alá helyezett légitársaságok európai jegyzékét).</li>
+
+</ul>
+
+
+
 Amiért érdemes minket választani:
+
+
+
+
+
 
 <ul>
     <li>Gépeink gyorsak, biztonságosak</li>
@@ -40,9 +73,9 @@ Amiért érdemes minket választani:
     <li>Olcsók</li>
 </ul>
 
-<form>
+<form method="get">
 
-<label for="kerdes">Bármi kérdésed van, írj nekünk
+<label for="kerdes">Bármi kérdése van, írjon nekünk
 
 <textarea id="kerdes" name="kerdes" col="5" row="6">
 
@@ -51,7 +84,12 @@ Amiért érdemes minket választani:
 
 </label>
 
+<input type="submit">
+
 </form>
+</div>
+</div>
+</div>
 
 </body>
 </html>

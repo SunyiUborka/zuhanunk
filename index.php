@@ -20,7 +20,7 @@ include_once("nav.php");
 <div class="container-fluid">
     <div class="row">
         <div class="col">
-            aaaaaa
+            <?= $content ?>
         </div>
     </div>
 </div>

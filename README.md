@@ -66,6 +66,7 @@
   </li>
   <li> Ábrahám: Rólunk(about)</li>
   <li>A mappaszerkezetet megcsináltam, az osztályoknak</li>
-  
+  <li>Ábrahám: foglalkozzok, a Rólunk, és az Infó fájlal, és a Dokumentációval is foglalkoznék, ott a részemet hétvégén csinálnám meg.</li>
+ 
 </ul>
 <b>Egyéb kérdésért felém lehet fordulni: Csehi Roland (Sunyi Uborka#0371)</b>

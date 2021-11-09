@@ -2,6 +2,12 @@
 
 $title = "Információ";
 
+$beiras = $_POST['email'] ?? null;
+
+
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -25,10 +31,9 @@ include "nav.php";
 ?>
 
 <h3>Diákmunka</h3>
-
 <p>   
 
-
+16 év fölött, 1hónap = 20000Ft, ötnapos estén, egy nap 4000Ft. 
 
 </p>
 
@@ -36,10 +41,33 @@ include "nav.php";
 
 
 
-<h3>Rólink</h3>
 
 
+<h3>Rólunk</h3>
 
+Olvasson többet <a href="about.php">ezen</a> a linken
+
+
+Bármi kérdés van írja meg a reputoter@gmail.hu címre, vagy tegye fel itt.
+
+<form method="post">
+<ul>
+<li>
+<label for="nev"> Hogy hívnak?
+<input type="text" id="nev" name="nev">
+</li>
+<li>
+<label for="exampleInputEmail1">Email cím</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">Sona ne ossza meg másokkal</small>
+</li>
+<li>
+<label for=""> írja be a kérdését</label>
+<textarea id="iras"col="30" row="45"></textarea>
+<input class="btn btn-primary" type="submit">
+</li>
+</ul>
+</form>
 
 
 

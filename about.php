@@ -57,6 +57,8 @@ Mi vagyunk az ASTP. Repüljünk együtt!</p>
 
 Az ASTP 13 évvel ezelőtt jelent meg. 
 
+
+
 </p>
 
 <ul>
@@ -71,6 +73,15 @@ Az ASTP 13 évvel ezelőtt jelent meg.
 <li>   együttműködés a nemzetközi érdekelt felekkel az európai repülésbiztonság javítása érdekében (lásd az ún. európai repülésbiztonsági listát, az Európai Unióban működési tilalom vagy működési korlátozások alá helyezett légitársaságok európai jegyzékét).</li>
 
 </ul>
+
+
+<h3>Mitől vagyunk jó csapat?</h3>
+<p>
+
+A csapat nem annyira, !
+
+</p>
+
 
 
 

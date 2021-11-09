@@ -4,7 +4,8 @@ namespace  app\model;
 
 
 class Repuloter{
-
+// letrehozzuk a repülőtér adatait
+    
     private $airiport_name;
     private $country_name;
     private $timezone;
@@ -18,12 +19,14 @@ class Repuloter{
      */
     public function __construct($airiport_name, $country_name, $timezone, $gmt)
     {
+        // nyílvánossá tesszük.
+        
         $this->airiport_name = $airiport_name;
         $this->country_name = $country_name;
         $this->timezone = $timezone;
         $this->gmt = $gmt;
     }
-
+// Megadjuk, ha egyenként akarjuk lekérdezni, vagy módosítani, a tulajdonságokat.
     /**
      * @return mixed
      */

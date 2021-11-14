@@ -8,6 +8,7 @@
 body{
     color: var(--fontCol);
     margin-left: calc(78px + 1em);
+    margin-right: calc( 1em);
     background-color: black;
 }
 :root{
@@ -208,4 +209,11 @@ body{
 
 .table{
     color: var(--fontCol);
+}
+
+@supports(scrollbar-color: hsl(120 75% 50% /1) hsl(120 75% 20% /1)){
+    *{
+        scrollbar-color: hsl(120 75% 50% /1) hsl(120 75% 20% /1);
+        scrollbar-width: thin;
+    }
 }

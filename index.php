@@ -1,5 +1,6 @@
 <?php
     include_once("config.php");
+    include_once("src/app/apis/airports.php");
 ?>
 <!DOCTYPE html>
 <html lang="hu">
@@ -20,7 +21,23 @@ include_once("nav.php");
 <div class="container-fluid">
     <div class="row">
         <div class="col">
-            <?= $content ?>
+            <h1>
+            <i class='bx bx-radar' ></i>BruhRadar
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col src">
+            <form method="get">
+                <label for="srcport" class="srclab">Válassz egy repülőteret</label>
+                <input list="srcports" name="airport" class="search" id="srcport">
+                <datalist id="srcports">
+                <?php foreach ($arr as $flight):?>
+                    <option value="<?=$flight->getAirportName()?>">
+                <?php endforeach ?>
+                </datalist>
+                <button class="btnsrc" list="src">Keresés</button>
+</form>
         </div>
     </div>
 </div>

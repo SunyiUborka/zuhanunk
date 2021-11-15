@@ -7,8 +7,7 @@
 }
 body{
     color: var(--fontCol);
-    margin-left: calc(78px + 1em);
-    margin-right: calc( 1em);
+    margin: 1em 1em 1em calc(78px + 1em);
     background-color: black;
 }
 :root{
@@ -208,9 +207,81 @@ body{
 }
 
 .table{
+    letter-spacing: 1px;
     color: var(--fontCol);
 }
 
+table.arrival{
+    position: absolute;
+    width: calc(100% - 78px - 3em);
+}
+
+table.departure{
+    position: absolute;
+    width: calc(100% - 78px - 3em);
+}
+
+.btn{
+    background-color: var(--fontCol);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+table.inactive{
+    opacity: 0;
+}
+
+h1{
+    padding-left: 0.5em;
+}
+
+.search{
+    background-color: #888;
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    height: 2.5em;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50px 15px;
+    font-size: 200%;
+    border: none;
+    outline: none;
+    padding-left: 1em;
+    font-weight: bold;
+}
+.btnsrc{
+    letter-spacing: 2px;
+    color: var(--fontCol);
+    background-color: var(--backCol);
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    height: 2.5em;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50px 15px;
+    font-size: 200%;
+    border: none;
+    outline: none;
+    padding: 0em 1em 0em 1em;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.btnsrc:hover{
+    color: var(--backCol);
+    background-color: var(--fontCol);
+    transition: all 0.5s ease;
+}
+.srclab{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 30%;
+    font-size: 200%;
+}
+datalist>option{
+    width: 50px;
+}
 @supports(scrollbar-color: hsl(120 75% 50% /1) hsl(120 75% 20% /1)){
     *{
         scrollbar-color: hsl(120 75% 50% /1) hsl(120 75% 20% /1);

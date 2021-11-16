@@ -45,7 +45,7 @@ include "nav.php";
 <h1>Üdvözlünk az oldalon</h1>
 
 <p>
-Mi vagyunk az ASTP. Repüljünk együtt!</p>
+Mi vagyunk a Bruh. Repüljünk együtt!</p>
 
 
 <img src="img/forepulo.jpg" alt="forepulo">
@@ -56,16 +56,16 @@ Mi vagyunk az ASTP. Repüljünk együtt!</p>
 
 <p>
 
-Az ASTP 13 évvel ezelőtt jelent meg. 
+A Bruh egy friss csapat. Mindhárman Debrecenről jöttünk.
 
 
 
 </p>
 
+<p>Feladatunk</p>
 <ul>
 
-<li>,</li>
-<li>  </li>
+
 <li>  műszaki repülésügyi szabályok kidolgozása,</li>
 <li>   légi járművek és komponensek típusalkalmassági tanúsítása,</li>
 <li>  a repüléstechnikai termékeket tervező, gyártó és karbantartó cégek jóváhagyása,</li>
@@ -79,7 +79,7 @@ Az ASTP 13 évvel ezelőtt jelent meg.
 <h3>Mitől vagyunk jó csapat?</h3>
 <p>
 
-A csapat nem annyira, !
+    Összetartunk. 
 
 </p>
 
@@ -89,19 +89,15 @@ A csapat nem annyira, !
 Amiért érdemes minket választani:
 
 
-
-
-
-
 <ul>
-    <li>Gépeink gyorsak, biztonságosak</li>
-    <li>Általában nem késnek</li>
-    <li>Olcsók</li>
+    <li>Térképünk pontos.</li>
+    <li>Ingyen letölthető</li>
+    <li>Bármikor szívesen válaszolunk</li>
 </ul>
 
 <form method="get">
 
-<label for="kerdes">Bármi kérdése van, írjon nekünk
+<label for="kerdes">Bármi kérdése még van, írjon nekünk.
 
 <textarea id="kerdes" name="kerdes" col="5" row="6">
 
@@ -110,7 +106,7 @@ Amiért érdemes minket választani:
 
 </label>
 
-<input type="submit">
+<input type="submit" class="btn-primary">
 
 
 </form>
